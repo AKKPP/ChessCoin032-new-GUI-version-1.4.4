@@ -5,15 +5,6 @@
 #ifndef _BITCOIN_COMPAT_H
 #define _BITCOIN_COMPAT_H 1
 
-// 20210917
-//#if (defined (_WIN32) || defined (_WIN64))
-//	#ifdef __MINGW32__ || __MINGW64__
-//		#ifdef _SYS_TIME_H
-//			#define _TIMEVAL_DEFINED
-//		#endif
-//	#endif
-//#endif
-
 #ifdef WIN32
 #define _WIN32_WINNT 0x0501
 #define WIN32_LEAN_AND_MEAN 1
